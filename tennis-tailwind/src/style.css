@@ -1,0 +1,35 @@
+/* using prefix */
+/*@import "tailwindcss" prefix(tw);*/
+@import "tailwindcss";
+/*
+    https://daisyui.com/
+    https://flowbite.com/
+    to add a plugin use: @plugin "flowbite/plugin";
+*/
+/* to add all custom variables use: @theme
+https://tailwindcss.com/docs/theme#theme-variable-namespaces
+*/
+@theme {
+    --color-bright-sun-50: #fefbe8;
+    --color-bright-sun-100: #fff6c2;
+    --color-bright-sun-200: #ffea89;
+    --color-bright-sun-300: #ffd234;
+    --color-bright-sun-400: #fdbf12;
+    --color-bright-sun-500: #eca606;
+    --color-bright-sun-600: #cc7e02;
+    --color-bright-sun-700: #a35805;
+    --color-bright-sun-800: #86450d;
+    --color-bright-sun-900: #723911;
+    --color-bright-sun-950: #431c05;
+
+    --font-spartwell: 'Spartwell', sans-serif;
+    --font-anton: 'Anton', sans-serif;
+    --font-montserrat: 'Montserrat', sans-serif;
+}
+
+@layer utilities{
+    .mt-1000{
+        margin-top: 100px;
+    }
+}
+
